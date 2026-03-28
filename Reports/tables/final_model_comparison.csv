@@ -1,0 +1,6 @@
+Model,Category,Leads,F1,Recall,Balanced Accuracy,ROC-AUC,PR-AUC,Stability / Note
+Random Forest,Classical ML,V1-V3,0.4,0.286,0.626,0.752,0.518,Single split classical benchmark
+Xgboost,Classical ML,V1-V3,0.381,0.286,0.617,0.73,0.517,Single split classical benchmark
+CNN V1-V3 (best seed=123),Deep Learning,V1-V3,0.667,0.5,0.75,0.853,0.794,Overfitting risk: mild
+CNN V1-V3 (multi-seed mean),Deep Learning,V1-V3,0.651,0.595,0.769,0.858,,"F1 std=0.012, Recall std=0.089, AUC std=0.004"
+CNN 12-lead (multi-seed mean),Deep Learning,All 12 Leads,0.326,1.0,0.5,0.66,,"F1 std=0.000, Recall std=0.000, AUC std=0.019"

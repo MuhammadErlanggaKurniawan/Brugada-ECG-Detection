@@ -1,0 +1,9 @@
+Final Summary
+=============
+Best classical benchmark: XGBoost / RandomForest on V1-V3.
+Best deep model: CNN V1-V3.
+CNN V1-V3 multi-seed mean F1 = 0.651 ± 0.012
+CNN V1-V3 multi-seed mean Recall = 0.595 ± 0.089
+CNN V1-V3 multi-seed mean ROC-AUC = 0.858 ± 0.004
+CNN 12-lead mean F1 = 0.326, indicating degraded performance compared to V1-V3.
+Feature importance analysis identified V1 as the most informative lead, followed by V2-related contributions.

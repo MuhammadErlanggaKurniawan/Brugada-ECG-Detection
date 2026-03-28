@@ -1,0 +1,11 @@
+{
+  "num_seeds": 3,
+  "mean_test_f1": 0.6506093189964157,
+  "std_test_f1": 0.011548117887083719,
+  "mean_test_recall": 0.5952380952380952,
+  "std_test_recall": 0.08908708063747481,
+  "mean_test_auc": 0.8575533661740558,
+  "std_test_auc": 0.0035313322114296306,
+  "mean_test_balanced_accuracy": 0.7688834154351397,
+  "std_test_balanced_accuracy": 0.020144243261716415
+}

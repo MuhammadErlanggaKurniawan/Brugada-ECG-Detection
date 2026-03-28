@@ -1,0 +1,189 @@
+{
+  "mode": "all_12_leads",
+  "metrics": {
+    "roc_auc": 0.7019704433497538,
+    "pr_auc": 0.3808504696520169,
+    "f1_at_0_5": 0.2608695652173913,
+    "balanced_accuracy_at_0_5": 0.5554187192118226,
+    "precision_at_0_5": 0.3333333333333333,
+    "recall_at_0_5": 0.21428571428571427
+  },
+  "top_native_features": [
+    {
+      "feature": "II__spec_entropy",
+      "importance": 0.05685333535075188
+    },
+    {
+      "feature": "III__spec_entropy",
+      "importance": 0.03853067010641098
+    },
+    {
+      "feature": "V1__spec_entropy",
+      "importance": 0.03537765145301819
+    },
+    {
+      "feature": "V2__p95",
+      "importance": 0.0326954685151577
+    },
+    {
+      "feature": "aVF__spec_entropy",
+      "importance": 0.025960106402635574
+    },
+    {
+      "feature": "V3__p95",
+      "importance": 0.02307986095547676
+    },
+    {
+      "feature": "V2__p05",
+      "importance": 0.018637467175722122
+    },
+    {
+      "feature": "V6__spec_entropy",
+      "importance": 0.017718547955155373
+    },
+    {
+      "feature": "aVR__power_15_40",
+      "importance": 0.01745321787893772
+    },
+    {
+      "feature": "V2__median",
+      "importance": 0.017207477241754532
+    }
+  ],
+  "top_native_leads": [
+    {
+      "lead": "V1",
+      "importance": 0.1254052734002471
+    },
+    {
+      "lead": "V6",
+      "importance": 0.12218052335083485
+    },
+    {
+      "lead": "II",
+      "importance": 0.11020785802975297
+    },
+    {
+      "lead": "aVF",
+      "importance": 0.1091058743186295
+    },
+    {
+      "lead": "V4",
+      "importance": 0.09702892554923892
+    },
+    {
+      "lead": "III",
+      "importance": 0.0910309343598783
+    },
+    {
+      "lead": "V2",
+      "importance": 0.08021001145243645
+    },
+    {
+      "lead": "V3",
+      "importance": 0.06987974746152759
+    },
+    {
+      "lead": "aVR",
+      "importance": 0.0665090954862535
+    },
+    {
+      "lead": "V5",
+      "importance": 0.06321403151378036
+    }
+  ],
+  "top_permutation_features": [
+    {
+      "feature": "V1__spec_entropy",
+      "importance_mean": 0.042733990147783354,
+      "importance_std": 0.018628653782041673
+    },
+    {
+      "feature": "V2__p05",
+      "importance_mean": 0.025677339901477914,
+      "importance_std": 0.013570707740148125
+    },
+    {
+      "feature": "III__spec_entropy",
+      "importance_mean": 0.02241379310344836,
+      "importance_std": 0.008220846930186515
+    },
+    {
+      "feature": "aVF__zero_cross",
+      "importance_mean": 0.02167487684729073,
+      "importance_std": 0.006927271482968087
+    },
+    {
+      "feature": "V1__skew",
+      "importance_mean": 0.020320197044335075,
+      "importance_std": 0.010718531518182998
+    },
+    {
+      "feature": "V4__spec_entropy",
+      "importance_mean": 0.01988916256157643,
+      "importance_std": 0.00911891552488146
+    },
+    {
+      "feature": "V6__power_15_40",
+      "importance_mean": 0.015886699507389253,
+      "importance_std": 0.005642222260569116
+    },
+    {
+      "feature": "V4__peak_freq",
+      "importance_mean": 0.014347290640394162,
+      "importance_std": 0.005141164694245495
+    },
+    {
+      "feature": "aVR__skew",
+      "importance_mean": 0.014224137931034575,
+      "importance_std": 0.005444895908623974
+    },
+    {
+      "feature": "V4__kurtosis",
+      "importance_mean": 0.01354679802955674,
+      "importance_std": 0.004753758390546506
+    }
+  ],
+  "top_permutation_leads": [
+    {
+      "lead": "V1",
+      "importance": 0.09242610837438506
+    },
+    {
+      "lead": "V4",
+      "importance": 0.06933497536945898
+    },
+    {
+      "lead": "V6",
+      "importance": 0.04642857142857249
+    },
+    {
+      "lead": "III",
+      "importance": 0.04334975369458179
+    },
+    {
+      "lead": "aVF",
+      "importance": 0.04224137931034546
+    },
+    {
+      "lead": "V2",
+      "importance": 0.040701970443350104
+    },
+    {
+      "lead": "aVR",
+      "importance": 0.02586206896551775
+    },
+    {
+      "lead": "II",
+      "importance": 0.01859605911330111
+    },
+    {
+      "lead": "I",
+      "importance": 0.016502463054187736
+    },
+    {
+      "lead": "V5",
+      "importance": 0.000431034482759207
+    }
+  ]
+}

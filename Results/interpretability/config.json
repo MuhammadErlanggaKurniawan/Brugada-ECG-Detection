@@ -1,0 +1,12 @@
+{
+  "metadata_path": "/Users/angga0704/VSCode/Lomba/IDSC/Misc/metadata.csv",
+  "files_dir": "/Users/angga0704/VSCode/Lomba/IDSC/Misc/files",
+  "output_dir": "outputs_feature_importance",
+  "random_state": 42,
+  "test_size": 0.2,
+  "mode": "all_12_leads",
+  "include_wavelet_features": false,
+  "top_n_features_plot": 20,
+  "permutation_n_repeats": 20,
+  "permutation_scoring": "roc_auc"
+}
